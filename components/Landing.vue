@@ -6,12 +6,12 @@
       </div>
       <div class="text text-center">
         <h1 class="text-white text-3xl text-center font-bold">Apprends une langue gratuitement tout en t'amusant.</h1>
-        <div class="intro_btn mt-24">
+        <div class="intro_btn mt-16">
           <div class="intro_btn_1">
             <a href="#" class="bg-green text-white font-bold uppercase px-32 py-4 rounded-2xl">C'est parti</a>
           </div>
-          <div class="intro_btn_2">
-            <a href="#" class="bg-blue text-white font-bold uppercase border-2 border-black px-24 py-4 rounded-2xl">J'ai déjà un compte</a>
+          <div class="intro_btn_2 mt-12">
+            <a href="#" class="bg-blue text-white font-bold uppercase py-4 rounded-2xl">J'ai déjà un compte</a>
           </div>
         </div>
       </div>
@@ -45,5 +45,11 @@ export default {
 
 .text h1 {
   width: 750px;
+}
+
+.text .intro_btn_2 a {
+  padding: 1rem 5.5rem;
+  border: 2.5px solid #00000040;
+  border-bottom: 5px solid #00000040;
 }
 </style>
